@@ -1,4 +1,4 @@
-# Casa Amigo — AI Tenancy Chatbot (Portfolio Case Study)
+# Casa Amigo 🏠 (Portfolio Case Study)
 
 This repository documents my individual contributions to *Casa Amigo*, a team-built AI chatbot designed to support property inquiries and tenant services in the real estate domain.
 
@@ -15,8 +15,10 @@ This repository focuses **only on my individual contributions**.
 ## My Contributions
 
 ### 1. UI / UX Design
-- Designed and iterated user-facing layouts and interaction flows for the chatbot interface and dashboards.
-- Focused on usability and clarity for tenant-facing workflows in a Streamlit-based frontend.
+- Collaborated on user-facing layouts and interaction flows for the chatbot interface and dashboards.
+- Designed custom logos and logo animations for the application branding.
+- Implemented custom sidebar cursor styling to enhance user experience.
+- Contributed to usability improvements for tenant-facing workflows in the Streamlit-based frontend.
 
 ### 2. Property Listing Data Ingestion
 - Built a web-scraping pipeline to collect public property listings from PropertyGuru.
@@ -32,12 +34,12 @@ This repository focuses **only on my individual contributions**.
 - Created and populated sample user datasets in Supabase to support development, testing, and demos.
 
 ### 5. Evaluation Question Design
-- Designed evaluation question sets to assess retrieval quality and response accuracy of the RAG system.
-- Focused on common tenant inquiries and contract-related edge cases.
+- Designed evaluation question sets to assess ROUGE metrics and retrieval quality of the RAG system.
+- Focused on common tenant inquiries and contract-related edge cases to benchmark system performance.
 
 ## Selected Design & Data Flows
 
-The following diagrams illustrate the components I designed or implemented.
+The following illustrate the components I designed or implemented.
 
 ## Technologies Used (My Scope)
 
