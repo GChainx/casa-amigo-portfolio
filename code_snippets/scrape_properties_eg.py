@@ -36,7 +36,6 @@ class PropertyScraper:
             chrome_options.add_argument('--window-size=1920,1080')
             chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
             
-            # That's it! No binary_location needed
             service = Service(ChromeDriverManager().install())
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             logger.info("Selenium driver initialized with Chrome")
@@ -147,7 +146,6 @@ class PropertyScraper:
         """Get property area in sqft"""
         area_elem = listing.select_one('div[da-id="listing-card-v2-area"] p')
         if area_elem:
-            # Extract number from "2,000 sqft"
             return self._parse_number(area_elem.text)
         return None
     

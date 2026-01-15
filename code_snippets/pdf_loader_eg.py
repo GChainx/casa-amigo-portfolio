@@ -41,7 +41,6 @@ def load_pdf_smart_clauses(file_path):
                 sub_letter, sub_text = sub_match.groups()
                 label = f"{main_num}({sub_letter})"
 
-                # ---- Improved title extraction ----
                 # Match uppercase words followed by punctuation or lowercase (end of heading)
                 title_match = re.match(r'([A-Z][A-Z\s\-&,]+?)(?=\s+[A-Z][a-z])', sub_text)
                 if title_match:

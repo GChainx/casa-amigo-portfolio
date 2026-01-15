@@ -45,7 +45,7 @@ The following illustrate the components I designed or implemented.
 
 - Python
 - Supabase (PostgreSQL)
-- Web scraping tools (BeautifulSoup / Requests)
+- Web scraping tools (BeautifulSoup / Selenium)
 - Streamlit (UI prototyping)
 - Document parsing (PDF/text processing)
 
