@@ -37,10 +37,6 @@ This repository focuses **only on my individual contributions**.
 - Designed evaluation question sets to assess ROUGE metrics and retrieval quality of the RAG system.
 - Focused on common tenant inquiries and contract-related edge cases to benchmark system performance.
 
-## Selected Design & Data Flows
-
-The following illustrate the components I designed or implemented.
-
 ## Technologies Used (My Scope)
 
 - Python
